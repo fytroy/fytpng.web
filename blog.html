@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Blog - QuantumFlow Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">QuantumFlow<span>.</span></a>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <div class="nav-content-wrapper">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="blog.html" class="nav-link active">Blog</a></li>
+          <li><a href="contact.html" class="nav-link btn btn-gradient-border">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container" data-animation="fade-in-up">
+      <h1>Our Latest Insights & Blog</h1>
+      <p>Stay informed with expert articles on technology trends, innovations, and industry best practices.</p>
+    </div>
+  </section>
+
+  <section class="blog-listing-section">
+    <div class="container">
+      <div class="blog-filters" data-animation="fade-in-up" data-delay="100">
+        <button class="filter-btn active" data-filter="all">All Categories</button>
+        <button class="filter-btn" data-filter="ai">Artificial Intelligence</button>
+        <button class="filter-btn" data-filter="cloud">Cloud Computing</button>
+        <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+        <button class="filter-btn" data-filter="web-dev">Web Development</button>
+        <button class="filter-btn" data-filter="data">Data Analytics</button>
+      </div>
+
+      <div class="blog-grid">
+        <div class="blog-post-card ai" data-animation="fade-in-up" data-delay="200">
+          <img src="images/blog-ai-future.webp" alt="AI Future">
+          <div class="card-content">
+            <span class="blog-category">Artificial Intelligence</span>
+            <h3><a href="blog-post-1.html">The Future is Now: How AI is Reshaping Industries</a></h3>
+            <p>Explore the transformative power of AI and its profound impact on various sectors, driving efficiency and innovation.</p>
+            <span class="post-meta">July 20, 2025 by Jane Doe</span>
+            <a href="blog-post-1.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-post-card cybersecurity" data-animation="fade-in-up" data-delay="300">
+          <img src="images/blog-cybersecurity.webp" alt="Cybersecurity">
+          <div class="card-content">
+            <span class="blog-category">Cybersecurity</span>
+            <h3><a href="blog-post-2.html">Fortifying Your Defenses: A Guide to Modern Cybersecurity</a></h3>
+            <p>Understand the critical importance of robust cybersecurity in today's digital landscape and how to protect your assets.</p>
+            <span class="post-meta">July 15, 2025 by John Smith</span>
+            <a href="blog-post-2.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-post-card cloud" data-animation="fade-in-up" data-delay="400">
+          <img src="images/blog-devops.webp" alt="DevOps">
+          <div class="card-content">
+            <span class="blog-category">Cloud Computing</span>
+            <h3><a href="blog-post-3.html">Streamlining Development: The Power of DevOps Practices</a></h3>
+            <p>Discover how DevOps principles can accelerate your software delivery cycle and enhance collaboration.</p>
+            <span class="post-meta">July 10, 2025 by Mike Johnson</span>
+            <a href="blog-post-3.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-post-card web-dev" data-animation="fade-in-up" data-delay="500">
+          <img src="images/blog-web-trends.webp" alt="Web Development Trends">
+          <div class="card-content">
+            <span class="blog-category">Web Development</span>
+            <h3><a href="blog-post-4.html">Top Web Development Trends to Watch in 2025</a></h3>
+            <p>Stay ahead with insights into the latest web technologies and design philosophies shaping the digital landscape.</p>
+            <span class="post-meta">July 5, 2025 by Sara Lee</span>
+            <a href="blog-post-4.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-post-card data" data-animation="fade-in-up" data-delay="600">
+          <img src="images/blog-data-viz.webp" alt="Data Visualization">
+          <div class="card-content">
+            <span class="blog-category">Data Analytics</span>
+            <h3><a href="blog-post-5.html">The Art of Data Visualization: Making Sense of Big Data</a></h3>
+            <p>Learn how effective data visualization can transform complex datasets into clear, actionable insights.</p>
+            <span class="post-meta">June 28, 2025 by Alex Chen</span>
+            <a href="blog-post-5.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="blog-post-card ai" data-animation="fade-in-up" data-delay="700">
+          <img src="images/blog-ai-ethics.webp" alt="AI Ethics">
+          <div class="card-content">
+            <span class="blog-category">Artificial Intelligence</span>
+            <h3><a href="blog-post-6.html">Navigating the Ethical Landscape of AI Development</a></h3>
+            <p>A deep dive into the moral considerations and responsible practices in the rapidly evolving field of AI.</p>
+            <span class="post-meta">June 20, 2025 by Jane Doe</span>
+            <a href="blog-post-6.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pagination" data-animation="fade-in-up" data-delay="800">
+        <a href="#" class="page-link active">1</a>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link">3</a>
+        <a href="#" class="page-link">Next &raquo;</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">QuantumFlow<span>.</span></a>
+        <p>Innovating the Future of Technology</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Tech Lane, Innovation City, CA 90210</p>
+        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+        <p><i class="fas fa-envelope"></i> info@quantumflow.com</p>
+      </div>
+      <div class="footer-newsletter">
+        <h3>Join Our Newsletter</h3>
+        <p>Stay updated with our latest news and insights.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 QuantumFlow Digital. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+      <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const filterButtons = document.querySelectorAll('.blog-filters .filter-btn');
+    const blogPosts = document.querySelectorAll('.blog-post-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to the clicked button
+        button.classList.add('active');
+
+        const filterValue = button.dataset.filter;
+
+        blogPosts.forEach(post => {
+          if (filterValue === 'all' || post.classList.contains(filterValue)) {
+            post.style.display = 'block'; // Show post
+            // Re-trigger animation by removing and adding the class
+            post.classList.remove('animate');
+            void post.offsetWidth; // Trigger reflow
+            post.classList.add('animate');
+          } else {
+            post.style.display = 'none'; // Hide post
+            post.classList.remove('animate'); // Ensure hidden items don't animate off-screen
+          }
+        });
+      });
+    });
+  });
+</script>
+</body>
+</html>
